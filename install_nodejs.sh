@@ -3,9 +3,21 @@
 
 # install nodejs
 cd /usr/local/src
-curl -O -L https://nodejs.org/dist/v10.15.3/node-v10.15.3-linux-x64.tar.xz
-tar Jxf node-v10.15.3-linux-x64.tar.xz
+curl -O -L https://nodejs.org/dist/v12.14.1/node-v12.14.1-linux-x64.tar.xz
+tar Jxf node-v12.14.1-linux-x64.tar.xz
 cd /usr/bin
-ln -s /usr/local/src/node-v10.15.3-linux-x64/bin/node node
-ln -s /usr/local/src/node-v10.15.3-linux-x64/lib/node_modules/npm/bin/npm-cli.js npm
-ln -s /usr/local/src/node-v10.15.3-linux-x64/lib/node_modules/npm/bin//npx-cli.js npx
+if [ -e node ]
+then
+    rm -f node
+fi
+ln -s /usr/local/src/node-v12.14.1-linux-x64/bin/node node
+if [ -e npm ]
+then
+    rm -f npm
+fi
+ln -s /usr/local/src/node-v12.14.1-linux-x64/lib/node_modules/npm/bin/npm-cli.js npm
+if [ -e npx ]
+then
+    rm -f npx
+fi
+ln -s /usr/local/src/node-v12.14.1-linux-x64/lib/node_modules/npm/bin//npx-cli.js npx
