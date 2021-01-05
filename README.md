@@ -1,9 +1,9 @@
 install.nodejs
 ==============
 
-node.js install script for CentOS7
+node.js install script for CentOS8
 
-This script install node.js v12.14.1.
+This script install node.js v14.15.4.
 
 How to install
 --------------
