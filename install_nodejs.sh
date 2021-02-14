@@ -5,7 +5,7 @@
 cd /usr/local/src
 curl -O -L https://nodejs.org/dist/v14.15.4/node-v14.15.4-linux-x64.tar.xz
 tar Jxf node-v14.15.4-linux-x64.tar.xz
-cd /usr/bin
+cd /usr/local/bin
 if [ -e node ]
 then
     rm -f node
