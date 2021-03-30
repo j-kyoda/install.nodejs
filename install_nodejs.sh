@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 # -*- coding: utf-8 -*-
 
 # install nodejs
@@ -20,4 +20,4 @@ if [ -e npx ]
 then
     rm -f npx
 fi
-ln -s /usr/local/src/node-v14.15.4-linux-x64/lib/node_modules/npm/bin//npx-cli.js npx
+ln -s /usr/local/src/node-v14.15.4-linux-x64/lib/node_modules/npm/bin/npx-cli.js npx
