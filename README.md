@@ -3,7 +3,7 @@ install.nodejs
 
 node.js install script for debian11
 
-This script install node.js v16.16.0.
+This script install node.js v16.17.0.
 
 How to install
 --------------
