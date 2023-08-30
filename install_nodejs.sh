@@ -1,7 +1,7 @@
 #!/bin/sh
 # -*- coding: utf-8 -*-
 
-VER_STR="v18.16.1"
+VER_STR="v18.17.1"
 
 # install nodejs
 cd /usr/local/src
