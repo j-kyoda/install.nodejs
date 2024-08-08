@@ -3,7 +3,7 @@ install.nodejs
 
 node.js install script for debian12
 
-This script install node.js v20.15.1.
+This script install node.js v20.16.0.
 
 How to install
 --------------
