@@ -3,7 +3,7 @@ install.nodejs
 
 node.js install script for debian12
 
-This script install node.js v22.11.0.
+This script install node.js v22.12.0.
 
 How to install
 --------------
