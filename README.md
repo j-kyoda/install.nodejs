@@ -1,9 +1,9 @@
 install.nodejs
 ==============
 
-node.js install script for debian12
+node.js install script for debian13
 
-This script install node.js v24.21.0.
+This script install node.js v24.22.0.
 
 How to install
 --------------
